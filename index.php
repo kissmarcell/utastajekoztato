@@ -106,8 +106,8 @@ if($response["station"] == ""){
 
                     print("
                     <tr class='" . (($counter % 2) ? 'even' : 'odd') . "'>
-                        <td>{$train['schedule']['arrival']}" . (isset($delay["arrival"]) ? " + {$delay["arrival"]}" : "-") . "</td>
-                        <td>{$train['schedule']['departure']}" . (isset($delay["departure"]) ? " + {$delay["departure"]}" : "-") . "</td>
+                        <td>{$train['schedule']['arrival']}" . (isset($delay["arrival"]) ? " + {$delay["arrival"]}" : "") . "</td>
+                        <td>{$train['schedule']['departure']}" . (isset($delay["departure"]) ? " + {$delay["departure"]}" : "") . "</td>
                         <td>{$train['info']['info']}</td>
                         <td>{$route}</td>
                         <td>{$train['info']['code']}</td>
