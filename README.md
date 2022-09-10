@@ -13,3 +13,6 @@ Paraméterek:
 
 ## API
 A weboldal az [oroszi.net féle](https://bitbucket.org/oroce/elvira-api/wiki/Home) API-t használja, az ezen rendszer által felismert állomásnevek automatikusan használhatóak.
+
+## Megtekinthető változat
+A projekt megtekinthető működés közben a [https://p.kmarcell.com/utastajekoztato](https://p.kmarcell.com/utastajekoztato?station=szeged) címen.
