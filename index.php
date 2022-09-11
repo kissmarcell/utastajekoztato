@@ -25,7 +25,7 @@ if($response["station"] == ""){
     <link rel="stylesheet" href="assets/css/styles.min.css">
 </head>
 
-<body style="color: white;">
+<body style="color: white; background: #010141;">
     <script>
         // Óra
         function updateTime(){
